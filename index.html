@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Kozhimutta game</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="pointMenu">
+        <div><img src="./egg.png" alt="" srcset="" /> <span>10</span></div>
+        <div><img src="./silver.png" alt="" srcset="" /> <span>20</span></div>
+        <div><img src="./gold.png" alt="" srcset="" /> <span>30</span></div>
+        <div><img src="./poop.png" alt="" srcset="" /> <span>-10</span></div>
+      </div>
+      <h3></h3>
+      <h2>Play</h2>
+    </div>
+    <div class="container">
+      <p
+        class="score"
+        style="
+          color: black;
+          position: absolute;
+          left: 10px;
+          bottom: 5px;
+          font-size: 20px;
+          z-index: 2;
+        "
+      >
+        Score: 0
+      </p>
+      <p
+        class="timer"
+        style="
+          color: black;
+          position: absolute;
+          right: 10px;
+          bottom: 5px;
+          font-size: 20px;
+          z-index: 2;
+        "
+      >
+        Time: 60 sec
+      </p>
+      <div class="coop">
+        <div class="hen">
+          <img src="./hen.png" alt="" />
+        </div>
+        <div class="hen"><img src="./hen.png" alt="" /></div>
+        <div class="hen"><img src="./hen.png" alt="" /></div>
+        <div class="hen"><img src="./hen.png" alt="" /></div>
+        <div class="hen"><img src="./hen.png" alt="" /></div>
+      </div>
+      <div class="basket">
+        <span class="points"></span> <img src="./bucket.png" alt="" />
+      </div>
+      <div class="ground"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
